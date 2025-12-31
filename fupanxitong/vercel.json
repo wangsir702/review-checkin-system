@@ -1,4 +1,12 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "build": {
+    "env": {
+      "VITE_SUPABASE_URL": "https://wdnlstzffziuigdlrjxz.supabase.co",
+      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndkbmxzdHpmZnppdWlnZGxyanh6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcxNjI4NDcsImV4cCI6MjA4MjczODg0N30.bb-ceFYSMXR4wx-swEHCF-2iYa6B-qnW5hWG43Lv4ik"
+    }
+  },
   "routes": [
     {
       "handle": "filesystem"
